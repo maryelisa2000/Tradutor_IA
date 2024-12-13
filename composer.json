@@ -1,0 +1,25 @@
+{
+    "name": "trmurakami/tradutor_ia",
+    "autoload": {
+        "psr-4": {
+            "Trmurakami\\TradutorIa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago Murakami",
+            "email": "trmurakami@gmail.com"
+        }
+    ],
+    "require": {
+        "modelflow-ai/ollama": "^0.1.0",
+        "openai-php/client": "^0.10.1",
+        "nyholm/psr7": "^1.8",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
